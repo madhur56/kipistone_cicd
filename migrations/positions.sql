@@ -1,5 +1,5 @@
 
-CREATE SCHEMA STG_BRZ;
+USE SCHEMA DEMO;
 
 CREATE OR REPLACE STAGE AWS_POSITIONS_STAGE   
 url='s3://data-stream-demo/api-data/positions.json'
